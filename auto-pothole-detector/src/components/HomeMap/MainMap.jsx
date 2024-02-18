@@ -4,7 +4,7 @@ import "leaflet/dist/leaflet.css";
 import { MapPopups } from './index.js';
 import { potholeData } from "../../data/potholeData.js";
 
-const MainMap = ({potholes}) => {
+const MainMap = () => {
 
   const [visibleMarkers, setVisibleMarkers] = useState([]);
 
